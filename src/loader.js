@@ -1,4 +1,4 @@
-require('./config/server')
-require('./config/database')
 
-//mostrando para a Lívia
+const server = require('./config/server')
+require('./config/database')
+require('./config/routes')(server)

@@ -1,4 +1,4 @@
-const restfull = require('node-restfull')
+const restfull = require('node-restful')
 const mongoose = restfull.mongoose;
 
 const todoSchema = new mongoose.Schema({

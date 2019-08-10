@@ -10,3 +10,5 @@ server.use(bodyParser.json())
 server.listen(port, function(){
     console.log(`api respondendo na porta ${port}`)
 })
+
+module.exports = server;
